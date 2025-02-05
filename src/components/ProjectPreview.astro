@@ -1,0 +1,63 @@
+---
+import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+
+import type { ProjectPreview } from "src/types";
+
+const { title, description, image, tools, preview, github } = Astro.props;
+---
+
+<article
+  class="flex flex-col sm:flex-row gap-x-4 space-y-4 sm:space-y-0 bg-[#181818] p-4 rounded-lg"
+>
+  <div
+    class="w-full text-center sm:text-start content-center justify-items-center"
+  >
+    <div class="flex space-x-4 items-center">
+      <h2 class="text-xl font-semibold">{title}</h2>
+      <div
+        class="size-4 bg-green-400 rounded-full animate-[pulse_2s_ease-in-out_infinite]"
+      >
+      </div>
+    </div>
+
+    <ul class="mt-2 mb-4 flex gap-x-2 justify-center sm:justify-start">
+      {
+        tools.map((tool: string) => (
+          <li class="text-xs  text-cod-gray-50 px-2 py-1 rounded-full">
+            {tool}
+          </li>
+        ))
+      }
+    </ul>
+
+    <p class="text-sm text-cod-gray-200">{description}</p>
+
+    <div
+      class="mt-4 flex items-center gap-x-4 text-sm justify-center sm:justify-end"
+    >
+      <a
+        href={preview}
+        target="_blank"
+        class="border border-eastern-blue-500 text-eastern-blue-500 hover:border-eastern-blue-400 hover:text-eastern-blue-400 transition-colors px-4 py-2 rounded-lg"
+        >Live Preview</a
+      >
+
+      <a
+        href={github}
+        target="_blank"
+        class="flex items-center gap-x-2 text-eastern-blue-500 hover:text-eastern-blue-400 hover:decoration-eastern-blue-400 px-4 py-2 rounded-lg hover:underline transition-colors cursor-pointer"
+      >
+        <Icon name="mdi:github" class="size-6" />
+        View Code
+      </a>
+    </div>
+  </div>
+  <div class="w-full sm:w-1/2">
+    <Image
+      class="aspect-video rounded-lg h-full object-cover"
+      src={image}
+      alt={title}
+    />
+  </div>
+</article>

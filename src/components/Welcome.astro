@@ -1,0 +1,70 @@
+---
+import { Image } from "astro:assets";
+
+import profile from "@images/profile.jpg";
+---
+
+<main class="h-full max-w-4xl py-16 mx-auto grid place-items-center">
+  <div
+    class="space-y-5 sm:space-y-0 px-4 sm:px-8 flex sm:flex-row flex-col sm:items-stretch"
+  >
+    <!-- Left Section -->
+    <div class="sm:w-1/2 flex flex-col justify-between">
+      <canvas id="cursor-trail" class="-z-20 absolute overflow-hidden"></canvas>
+
+      <!-- Introduction -->
+      <div class="text-3xl sm:text-4xl">
+        <h1 class="font-bold">Hi 😃,</h1>
+        <h3 class="pt-8 text-lg sm:text-xl">
+          I'm a passionate software developer with a knack for crafting
+          exceptional digital experiences. I specialize in crafting dynamic and
+          scalable software solutions, seamlessly blending frontend elegance
+          with robust backend systems. Explore my work to see how I transform
+          ideas into functional and innovative applications.
+        </h3>
+      </div>
+
+      <!-- Links -->
+      <div class="w-full justify-center flex gap-x-4 py-8">
+        <a
+          href="/resume"
+          class="rounded-full size-24 bg-indigo-700 border group grid place-items-center"
+        >
+          <span class="transition-transform block group-hover:scale-110">
+            Resume
+          </span>
+        </a>
+        <a
+          href="/projects"
+          class="rounded-full size-24 bg-amber-700 border group grid place-items-center"
+        >
+          <span class="transition-transform block group-hover:scale-110">
+            Projects
+          </span>
+        </a>
+        <a
+          href="/contact"
+          class="rounded-full size-24 bg-cyan-600 border group grid place-items-center"
+        >
+          <span class="transition-transform block group-hover:scale-110">
+            Contact
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="sm:w-1/2 flex items-center justify-center">
+      <Image
+        src={profile}
+        alt="Carlos Gomez profile"
+        class="mx-auto rounded-full size-48 sm:size-72 md:size-80"
+      />
+    </div>
+  </div>
+</main>
+
+<script>
+  import { initCursorTrail } from "@lib/cursorTrail";
+  initCursorTrail();
+</script>

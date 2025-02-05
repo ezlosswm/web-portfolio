@@ -1,0 +1,69 @@
+---
+import { Icon } from "astro-icon/components";
+
+const github = {
+  name: "mdi:github",
+  href: "https://github.com/ezlosswm",
+};
+
+const contactInfo = {
+  email: {
+    text: "Email",
+    contact: "ezlosswm@gmail",
+  },
+  phone: {
+    text: "Phone",
+    contact: "501 611 2227",
+  },
+  github: {
+    name: "mdi:github",
+    href: "https://github.com/ezlosswm",
+  },
+};
+---
+
+<footer class="w-full p-4">
+  <div
+    class="w-full flex flex-col sm:flex-row sm:justify-between sm:items-center px-4 gap-y-4 sm:gap-y-0"
+  >
+    <!-- phone -->
+    <div class="space-y-1">
+      <h4 class="font-bold">{contactInfo.phone.text}</h4>
+      <p class="text-sm text-gray-300 hover:text-gray-200">
+        {contactInfo.phone.contact}
+      </p>
+    </div>
+
+    <!-- email -->
+    <div class="space-y-1">
+      <h4 class="font-bold">{contactInfo.email.text}</h4>
+      <p class="text-sm text-gray-300 hover:text-gray-200">
+        {contactInfo.email.contact}
+      </p>
+    </div>
+
+    <!-- follow -->
+    <div class="space-y-1">
+      <h4 class="font-bold">Follow</h4>
+      <a
+        class="text-gray-300 hover:text-gray-200"
+        href={contactInfo.github.href}
+      >
+        <Icon name={contactInfo.github.name} class="size-6 block" />
+      </a>
+    </div>
+
+    <!-- name and date -->
+    <p class="text-sm text-gray-300">
+      &copy; <span id="year"></span>
+      <span class="underline hover:text-gray-200">
+        <a href="https://github.com/ezlosswm"> Carlos Gomez </a>
+      </span>
+    </p>
+  </div>
+</footer>
+
+<script>
+  const year = document.getElementById("year") as HTMLSpanElement;
+  year.innerHTML = new Date().getFullYear().toString();
+</script>

@@ -1,0 +1,24 @@
+---
+import Footer from "@components/Footer.astro";
+import Navbar from "@components/Navbar.astro";
+
+import "@fontsource-variable/manrope";
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+    <meta name="generator" content={Astro.generator} />
+    <title>Carlos Gomez - Software Developer</title>
+  </head>
+  <body
+    class="min-h-screen bg-cod-gray-950 text-cod-gray-50 font-manrope grid grid-rows-[auto_1fr_auto]"
+  >
+    <Navbar />
+    <slot />
+    <Footer />
+  </body>
+</html>

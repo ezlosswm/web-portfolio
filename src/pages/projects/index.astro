@@ -1,0 +1,42 @@
+---
+import Project from "@components/ProjectPreview.astro";
+import Layout from "@layout/Layout.astro";
+
+import type { ProjectPreview } from "../../types";
+
+import baysideBuzzProfile from "@images/projects/baysidebuzz.png";
+
+// example project
+const baysideBuzz = {
+  title: "Bayside Buzz",
+  description:
+    "A social media platform for students to connect and share their experiences in the Bay Area.",
+  image: baysideBuzzProfile,
+  tools: ["HTMX", "Go"],
+  preview: "https://bayside-buzz-production.up.railway.app/",
+  github: "https://github.com/ezlosswm/bayside-buzz",
+};
+
+import { projects } from "@data/projects";
+---
+
+<Layout>
+  <main class="h-full w-full sm:max-w-4xl px-8 py-16 mx-auto">
+    <h1 class="text-3xl sm:text-4xl font-bold mb-4">Projects</h1>
+
+    <ul class="space-y-5">
+      {
+        projects.map((project: ProjectPreview) => (
+          <Project
+            title={project.title}
+            description={project.description}
+            image={project.image}
+            tools={project.tools}
+            preview={project.preview}
+            github={project.github}
+          />
+        ))
+      }
+    </ul>
+  </main>
+</Layout>

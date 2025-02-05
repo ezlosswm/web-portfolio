@@ -1,0 +1,63 @@
+---
+import { nav } from "@data/nav";
+
+import { Icon } from "astro-icon/components";
+
+const menu = {
+  name: "line-md:menu",
+};
+---
+
+<header
+  id="header"
+  class="px-6 py-8 sm:px-8 sticky inset-x-0 top-0 z-50 shadow bg-[#0D0D0D] overflow-hidden"
+>
+  <nav class="max-w-4xl mx-auto">
+    <div class="justify-between flex flex-col sm:flex-row items-center">
+      <div class="flex w-full justify-between">
+        <a href="/" class="hover:text-eastern-blue-500 transition-colors">
+          <h1 class="text-3xl font-semibold block">Carlos Gomez</h1>
+        </a>
+
+        <button id="menu-btn" class="sm:hidden">
+          <Icon name={menu.name} class="size-8" />
+        </button>
+      </div>
+
+      <ul
+        id="menu"
+        class="mt-16 sm:mt-0 h-screen sm:h-auto tracking-wide hidden sm:flex flex-col sm:flex-row text-center gap-x-4 justify-end items-center w-full"
+      >
+        {
+          nav.map((item: any) => (
+            <li class="hover:text-eastern-blue-500 text-lg font-medium transition-colors py-4 px-2 sm:py-0 w-full sm:w-fit hover:bg-gray-500/75 sm:hover:bg-transparent rounded-lg">
+              <a class="block" href={item.href}>
+                {item.name}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<script>
+  const header = document.getElementById("header") as HTMLElement;
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 0) {
+      header.classList.add("shadow-white");
+    } else {
+      header.classList.remove("shadow-white");
+    }
+  });
+
+  const menuBtn = document.getElementById("menu-btn") as HTMLButtonElement;
+  const menu = document.getElementById("menu") as HTMLUListElement;
+
+  menuBtn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+    // header.classList.toggle("bg-white");
+  });
+</script>
