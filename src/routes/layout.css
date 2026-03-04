@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+	--font-grotesk: 'Space Grotesk', sans-serif;
+	--font-mono: 'JetBrains Mono', monospace;
+
+	/* Dark base */
+	--color-bg-dark: oklch(0.2077 0.0398 265.75); /* #0F172A */
+
+	/* Light backgrounds */
+	--color-bg-soft: oklch(0.971 0.004 286.33); /* #F5F5F8 */
+	--color-bg-muted: oklch(0.9288 0.0126 255.51); /* #E2E8F0 */
+	--color-white: oklch(1 0 0); /* #FFFFFF */
+
+	/* Slate text scale */
+	--color-text-muted: oklch(0.7107 0.0351 256.79); /* #94A3B8 */
+	--color-text-secondary: oklch(0.5544 0.0407 257.42); /* #64748B */
+	--color-text-primary: oklch(0.4455 0.0374 257.28); /* #475569 */
+
+	/* Brand / Accent */
+	--color-primary: oklch(0.4468 0.3056 264.5); /* #0606F9 */
+	--color-success: oklch(0.7227 0.192 149.58); /* #22C55E */
+}
+
+html {
+	scroll-behavior: smooth;
+}
