@@ -13,7 +13,7 @@
 
 		<a
 			href="mailto:ezlosswm@gmail.com"
-			class="text-2xl leading-8 font-bold underline transition-colors hover:text-primary md:text-4xl"
+			class="text-xl leading-8 font-bold underline transition-colors hover:text-primary sm:text-2xl md:text-4xl"
 			>carlos.a.gomez095@gmail.com</a
 		>
 
