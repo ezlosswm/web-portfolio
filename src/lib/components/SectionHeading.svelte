@@ -9,9 +9,9 @@
 </script>
 
 <div class="pb-16">
-	<h2 class="text-sm leading-5 font-bold tracking-[4.2px] text-primary uppercase">
+	<p class="text-sm leading-5 font-bold tracking-[4.2px] text-primary uppercase">
 		{heading}
-	</h2>
+	</p>
 	<h1
 		class="{size === 'default'
 			? 'text-6xl -tracking-[3px] md:text-8xl'

@@ -5,8 +5,11 @@
 </script>
 
 <section class="grid grid-cols-12 gap-6 space-y-6">
-	<div class="col-span-12">
-		<SectionHeading heading="Portfolio / 01" title="Carlos Gomez" />
+	<div class="col-span-12 pb-16">
+		<p class="mb-6 text-sm leading-5 font-bold tracking-[4.2px] text-primary">Frontend Developer</p>
+		<h1 class="mb-16 text-7xl leading-[0.8] font-bold tracking-tighter md:text-9xl lg:text-[11rem]">
+			Carlos <br /> Gomez
+		</h1>
 	</div>
 
 	<div class="col-span-12 md:col-span-5 lg:col-span-4">

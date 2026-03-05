@@ -30,7 +30,7 @@
 </svelte:head>
 
 <main class="px-6 lg:px-12">
-	<div id="hero" class="flex min-h-[calc(100vh-6rem)] scroll-mt-20 items-center">
+	<div id="hero" class="flex min-h-[calc(100vh-5rem)] scroll-mt-20 items-center">
 		<HeroSection />
 	</div>
 

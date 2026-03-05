@@ -17,7 +17,8 @@
 
 	/* Slate text scale */
 	--color-text-muted: oklch(0.7107 0.0351 256.79); /* #94A3B8 */
-	--color-text-secondary: oklch(0.5544 0.0407 257.42); /* #64748B */
+	--color-text-secondary: oklch(0.3717 0.0392 257.29); /* #334155 */
+	--color-text-secondary-muted: oklch(0.5544 0.0407 257.42); /* #64748B */
 	--color-text-primary: oklch(0.4455 0.0374 257.28); /* #475569 */
 
 	/* Brand / Accent */
