@@ -1,7 +1,7 @@
 <script>
 	import Contact from '$lib/components/Contact.svelte';
-	import HeroSection from '$lib/components/HeroSection.svelte';
-	import Projects from '$lib/components/Projects.svelte';
+	import Hero from '$lib/components/landing/Hero.svelte';
+	import Projects from '$lib/components/landing/Projects.svelte';
 </script>
 
 <svelte:head>
@@ -30,15 +30,15 @@
 </svelte:head>
 
 <main class="px-6 lg:px-12">
-	<div id="hero" class="flex min-h-[calc(100vh-5rem)] scroll-mt-20 items-center">
-		<HeroSection />
-	</div>
+	<section id="hero" class="flex min-h-[calc(100vh-5rem)] scroll-mt-20 items-center">
+		<Hero />
+	</section>
 
-	<div class="py-24">
+	<section class="py-24">
 		<Projects />
-	</div>
+	</section>
 
-	<div class="py-24">
+	<section class="py-24">
 		<Contact />
-	</div>
+	</section>
 </main>

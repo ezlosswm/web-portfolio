@@ -1,17 +1,11 @@
 <script lang="ts">
-	import SectionHeading from './SectionHeading.svelte';
-
-	type Project = {
-		title: string;
-		stack: string;
-		link: string;
-	};
+	import SectionHeading from '../SectionHeading.svelte';
 
 	const projects: Project[] = [
 		{
 			title: 'SuggestBox',
 			stack: 'Sveltekit, Supabase',
-			link: '#'
+			link: 'suggestbox'
 		}
 		// {
 		// 	title: 'Bayside Buzz',

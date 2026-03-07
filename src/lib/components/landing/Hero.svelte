@@ -1,6 +1,4 @@
 <script lang="ts">
-	import SectionHeading from './SectionHeading.svelte';
-
 	const tech = ['Sveltekit', 'JavaScript', 'Typescript', 'Go', 'Postgres', 'Docker'];
 </script>
 

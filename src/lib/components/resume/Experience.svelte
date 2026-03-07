@@ -1,7 +1,7 @@
 <script>
 	const experienceInfo = [
 		{
-			title: 'Vendor Network Recruiter/Trainer',
+			title: 'Vendor Network Recruiter',
 			company: 'FGP Home Services',
 			duration: 'January 2025 - Present',
 			description:

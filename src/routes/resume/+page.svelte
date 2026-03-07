@@ -5,20 +5,20 @@
 	import TechStack from '$lib/components/resume/TechStack.svelte';
 </script>
 
-<main class="px-6 lg:px-12">
-	<div id="hero" class="flex min-h-[calc(100vh-5rem)] scroll-mt-20 items-center">
+<main id="pdf-content" class="px-6 lg:px-12">
+	<section id="hero" class="flex min-h-[calc(100vh-5rem)] scroll-mt-20 items-center">
 		<Hero />
-	</div>
+	</section>
 
-	<div class="border-y border-bg-muted py-24">
+	<section class="border-y border-bg-muted py-24">
 		<TechStack />
-	</div>
+	</section>
 
-	<div class="border-b border-bg-muted py-24">
+	<section class="border-b border-bg-muted py-24">
 		<Experience />
-	</div>
+	</section>
 
-	<div class="border-b border-bg-muted py-24">
+	<section class="border-b border-bg-muted py-24">
 		<Education />
-	</div>
+	</section>
 </main>
