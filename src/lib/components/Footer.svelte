@@ -1,4 +1,4 @@
-<footer class="px-6 py-12">
+<footer class="bg-bg-soft px-6 py-12">
 	<div class="flex flex-col gap-4 text-center md:flex-row md:items-center md:justify-between">
 		<p class="text-xs leading-4 tracking-[3px] text-gray-500 uppercase">
 			&copy; {new Date().getFullYear().toString()} Carlos. Built with precision.

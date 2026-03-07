@@ -9,6 +9,10 @@
 
 <svelte:head><link rel="icon" href={emoji} /></svelte:head>
 
-<Header />
-{@render children()}
-<Footer />
+<div class="min-h-screen flex flex-col">
+	<Header />
+	<main class="flex-1">
+		{@render children()}
+	</main>
+	<Footer />
+</div>

@@ -19,7 +19,7 @@ export const projectMetaData: ProjectMetaData = {
 	},
 	technicalHighlights: {
 		performance: '99',
-		efficiency: '40'
+		efficiency: '111'
 	},
 	url: 'https://suggestionsbox.vercel.app/'
 };
