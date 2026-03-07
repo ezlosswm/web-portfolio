@@ -16,11 +16,11 @@
 
 	{#each details as detail}
 		<div class="col-span-12 md:col-span-4">
-			<div class="flex flex-col gap-1">
-				<span class="text-xs font-bold tracking-widest text-primary uppercase">
+			<div class="flex flex-col gap-1.5">
+				<div class="text-xs font-bold tracking-widest text-primary uppercase">
 					{detail.title}
-				</span>
-				<span class="text-lg font-medium">{detail.description}</span>
+				</div>
+				<div class="text-lg font-medium">{detail.description}</div>
 			</div>
 		</div>
 	{/each}

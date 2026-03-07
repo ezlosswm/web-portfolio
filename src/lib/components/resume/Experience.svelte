@@ -1,25 +1,25 @@
 <script>
 	const experienceInfo = [
 		{
-			title: 'Virtual Assistant',
-			company: 'Fusion Growth Partners',
+			title: 'Vendor Network Recruiter/Trainer',
+			company: 'FGP Home Services',
 			duration: 'January 2025 - Present',
 			description:
-				'Spearheading the migration of legacy design systems into highly performant SvelteKit applications. Implementing rigid Swiss-design principles through programmatic CSS and functional component architectures.'
+				'Identified and recruited qualified home service contractors across key U.S. markets to expand the company’s national vendor network. Conducted screening interviews to evaluate candidates’ experience, communication skills, and business fit while presenting the company’s partnership program and value proposition. Managed candidate documentation and communication throughout the recruitment process and coordinated with executive leadership to advance qualified vendors through contract review and onboarding.'
 		},
 		{
 			title: 'Acquisition Associate',
 			company: 'Fusion Growth Partners',
 			duration: 'March 2024 - January 2025',
 			description:
-				'Spearheading the migration of legacy design systems into highly performant SvelteKit applications. Implementing rigid Swiss-design principles through programmatic CSS and functional component architectures.'
+				'Conducted targeted cold-call outreach to qualified leads to generate new business opportunities. Engaged potential clients by presenting the company’s value proposition and investment model, qualifying prospects, and scheduling meetings for senior executives. Served as the first point of contact for prospective clients, contributing directly to lead generation and sales pipeline growth.'
 		},
 		{
 			title: 'Custom Service Representative',
 			company: 'Ariston Marketing Ltd. Co.',
 			duration: 'August 2022 - January 2024',
 			description:
-				'Spearheading the migration of legacy design systems into highly performant SvelteKit applications. Implementing rigid Swiss-design principles through programmatic CSS and functional component architectures.'
+				'Handled inbound and outbound calls for a dental services client, assisting patients with appointment scheduling, inquiries, and follow-up communications. Provided clear information about services and addressed customer concerns while maintaining a professional and positive experience. Accurately documented interactions and updates in the system to ensure efficient communication and continuity of care.'
 		}
 	];
 </script>

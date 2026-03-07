@@ -1,7 +1,5 @@
 <script>
 	import { page } from '$app/state';
-
-	console.log('page', page.route.id);
 </script>
 
 <header class="sticky top-0 z-50 border-b border-bg-muted bg-bg-soft px-6 backdrop-blur-md">

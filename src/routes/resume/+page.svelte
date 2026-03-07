@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Education from '$lib/components/resume/Education.svelte';
 	import Experience from '$lib/components/resume/Experience.svelte';
 	import Hero from '$lib/components/resume/Hero.svelte';
 	import TechStack from '$lib/components/resume/TechStack.svelte';
@@ -13,7 +14,11 @@
 		<TechStack />
 	</div>
 
-	<div class="py-24">
+	<div class="border-b border-bg-muted py-24">
 		<Experience />
+	</div>
+
+	<div class="border-b border-bg-muted py-24">
+		<Education />
 	</div>
 </main>
