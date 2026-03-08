@@ -3,7 +3,9 @@
 	import CaseStudy from '$lib/components/project/CaseStudy.svelte';
 	import Hero from '$lib/components/project/Hero.svelte';
 	import TechnicalHighlights from '$lib/components/project/TechnicalHighlights.svelte';
-	import { projectMetaData } from '$lib/projectList';
+
+	const { data } = $props();
+	const projectMetaData = $derived(data.project);
 </script>
 
 <svelte:head>
@@ -23,7 +25,7 @@
 
 <main id="pdf-content" class="px-6 lg:px-12">
 	<section id="hero" class="flex min-h-[calc(100vh-5rem)] scroll-mt-20 items-center">
-		<Hero details={projectMetaData.projectDetails} />
+		<Hero details={projectMetaData.projectDetails} name={projectMetaData.name} />
 	</section>
 
 	<section class="py-12">

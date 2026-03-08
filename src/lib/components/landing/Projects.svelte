@@ -1,18 +1,6 @@
 <script lang="ts">
 	import SectionHeading from '../SectionHeading.svelte';
-
-	const projects: Project[] = [
-		{
-			title: 'SuggestBox',
-			stack: 'Sveltekit, Supabase',
-			link: 'suggestbox'
-		}
-		// {
-		// 	title: 'Bayside Buzz',
-		// 	stack: 'Go, HTMX, Appwrite, PostgreSQL, Docker',
-		// 	link: '#'
-		// }
-	];
+	import { projectList } from '$lib/projectList';
 </script>
 
 <section id="projects" class="space-y-6">
@@ -26,32 +14,29 @@
 			<li class="col-span-3 text-right">Link</li>
 		</ul>
 
-		{#each projects as project}
+		{#each projectList as project}
 			{@render projectInfo(project)}
 		{/each}
 	</div>
 </section>
 
-{#snippet projectInfo(project: Project)}
+{#snippet projectInfo(project: any)}
 	<article
 		class="group grid-col-1 grid items-center border-bg-dark/10 py-12 transition-colors not-first:border-t last:border-b hover:text-primary md:grid-cols-12"
 	>
-		<!-- Title -->
 		<div class="col-span-6">
-			<h4 class="text-2xl leading-8 font-bold uppercase md:text-4xl">{project.title}</h4>
+			<h4 class="text-2xl leading-8 font-bold uppercase md:text-4xl">{project.name}</h4>
 		</div>
 
-		<!-- Stack -->
 		<div class="col-span-3">
 			<p class="text-sm leading-5 text-bg-dark/40 group-hover:text-bg-dark/40 md:text-base">
-				{project.stack}
+				{project.projectDetails[2].description}
 			</p>
 		</div>
 
-		<!-- Link -->
 		<div class="col-span-3 mt-6 md:mt-0">
 			<a
-				href={project.link}
+				href={project.slug}
 				class="flex justify-end gap-2 text-xs leading-4 font-bold tracking-[1.2px] uppercase transition-all group-hover:gap-4"
 			>
 				Case Study <span

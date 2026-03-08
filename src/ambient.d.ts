@@ -12,6 +12,7 @@ declare global {
 	};
 
 	type ProjectMetaData = {
+		slug: string;
 		name: string;
 		description: string;
 		projectDetails: Detail[];

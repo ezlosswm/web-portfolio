@@ -1,5 +1,5 @@
 <script lang="ts">
-	const { details }: { details: Detail[] } = $props();
+	const { details, name }: { details: Detail[]; name: string } = $props();
 </script>
 
 <div class="grid w-full grid-cols-12 gap-1.5 uppercase">
@@ -30,7 +30,7 @@
 
 		<!-- Title of the project -->
 		<h1 class="mb-16 text-7xl leading-[0.8] font-bold tracking-tighter md:text-9xl lg:text-[11rem]">
-			Carlos <br /> Gomez
+			{name}
 		</h1>
 	</div>
 
