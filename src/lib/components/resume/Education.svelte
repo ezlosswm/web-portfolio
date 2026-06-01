@@ -6,6 +6,13 @@
 			duration: 'August 2019 - June 2022',
 			description:
 				'Completed coursework in core business disciplines including management, accounting, marketing, and economics. Developed practical skills in business operations, leadership, communication, and problem solving, with a focus on understanding how organizations operate and make strategic decisions.'
+		},
+		{
+			degree: 'Software Engineering and Computer Systems',
+			school: 'UNID',
+			duration: 'January 2023 - May 2026',
+			description:
+				'Bachelor’s Degree in Software Engineering and Computer Systems emphasizing software development, database systems, and computer infrastructure. Relevant coursework included Object-Oriented Programming, Application Development, Structured Algorithm Design, Database Design & Administration, Software Engineering Fundamentals, Networking, Server Management, and Computer Security.'
 		}
 	];
 </script>
