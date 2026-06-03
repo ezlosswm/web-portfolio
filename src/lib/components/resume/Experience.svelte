@@ -5,7 +5,7 @@
 			company: 'FGP Home Services',
 			duration: 'January 2025 - Present',
 			description:
-				'Identified and recruited qualified home service contractors across key U.S. markets to expand the company’s national vendor network. Conducted screening interviews to evaluate candidates’ experience, communication skills, and business fit while presenting the company’s partnership program and value proposition. Managed candidate documentation and communication throughout the recruitment process and coordinated with executive leadership to advance qualified vendors through contract review and onboarding.'
+				'Sourced, evaluated and onboarded qualified home service contractors across multiple markets to support residential project demand and company growth. Conducted structured qualification calls to assess contractor capabilities, pricing expectations and availability Managed end-to-end communcations with contractors, realtors & clients during onboarding, project execution and approval workflows to ensure readiness for active projects. Supported operational pllaning by maintaining accurate vendor data and tracking availability for upcoming residential service needs.'
 		},
 		{
 			title: 'Acquisition Associate',
