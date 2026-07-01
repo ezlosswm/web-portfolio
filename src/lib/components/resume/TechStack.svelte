@@ -3,8 +3,8 @@
 		['Frameworks', 'Sveltekit', 'React'],
 		['Languages', 'JavaScript', 'TypeScript', 'Go', 'SQL'],
 		['Backend', 'Postgres', 'Node.js', 'Supabase'],
-		['Design', 'Figma', 'UI/UX'],
-		['Tools', 'Git', 'Docker']
+		['Design', 'Figma', 'SEO', 'UI/UX'],
+		['Tools', 'Git', 'Docker', 'Vercel']
 	];
 </script>
 

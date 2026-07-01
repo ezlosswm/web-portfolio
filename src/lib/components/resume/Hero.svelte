@@ -12,6 +12,16 @@
 		<h1 class="mb-16 text-7xl leading-[0.8] font-bold tracking-tighter md:text-9xl lg:text-[11rem]">
 			Carlos <br /> Gomez
 		</h1>
+		<!-- <p>
+			Portfolio: <span>
+				<a
+					href="https://carlos-gomez.vercel.app/"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="text-primary hover:underline">https://carlos-gomez.vercel.app/</a
+				>
+			</span>
+		</p> -->
 	</div>
 
 	{#each details as detail}
