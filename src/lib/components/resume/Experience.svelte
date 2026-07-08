@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	const experienceInfo = [
 		{
 			title: 'Vendor Relations Manager',
@@ -22,16 +22,54 @@
 				'Handled inbound and outbound calls for a dental services client, assisting patients with appointment scheduling, inquiries, and follow-up communications. Provided clear information about services and addressed customer concerns while maintaining a professional and positive experience. Accurately documented interactions and updates in the system to ensure efficient communication and continuity of care.'
 		}
 	];
+
+	import { projectList } from '$lib/projectList';
 </script>
 
 <section class="grid grid-cols-12 gap-1.5">
 	<div class="col-span-12 lg:col-span-3">
-		<h2 class="mb-8 text-3xl font-bold tracking-tighter uppercase lg:mb-0">Experience</h2>
+		<h2 class="mb-8 text-3xl font-bold tracking-tighter uppercase lg:mb-0">Software Experience</h2>
+	</div>
+
+	<div class="col-span-12 mb-24 space-y-16 lg:col-span-9">
+		<div class="grid grid-cols-12 gap-1.5 space-y-16">
+			{#each projectList as project (project.name)}
+				<div class="col-span-12 mb-4 space-y-1.5 md:col-span-4 md:mb-0">
+					<p class="text-xl font-bold">
+						{project.name}
+					</p>
+					<p class="text-sm">
+						{project.projectDetails[project.projectDetails.length - 1].description}
+					</p>
+					<a
+						href={project.url}
+						rel="noopener noreferrer"
+						target="_blank"
+						class="inline-flex cursor-pointer items-center gap-2 rounded-sm bg-primary px-6 py-2 text-xs
+							font-bold tracking-widest text-white uppercase transition-colors hover:bg-primary/80
+							hover:brightness-110"
+					>
+						Live Demo
+					</a>
+				</div>
+				<div class="col-span-12 md:col-span-8">
+					<p class="leading-rElaxed max-w-2xl text-lg text-text-secondary">
+						{project.summary}
+					</p>
+				</div>
+			{/each}
+		</div>
+	</div>
+
+	<div class="col-span-12 lg:col-span-3">
+		<h2 class="mb-8 text-3xl font-bold tracking-tighter uppercase lg:mb-0">
+			Professional Experience
+		</h2>
 	</div>
 
 	<div class="col-span-12 space-y-16 lg:col-span-9">
 		<div class="grid grid-cols-12 gap-1.5 space-y-16">
-			{#each experienceInfo as experience}
+			{#each experienceInfo as experience (experience.title)}
 				<div class="col-span-12 mb-4 space-y-1.5 md:col-span-4 md:mb-0">
 					<p class="text-xl font-bold">{experience.title}</p>
 					<p class="text-xs font-bold tracking-widest text-text-secondary-muted uppercase">

@@ -39,14 +39,4 @@
 	<section class="border-b border-bg-muted py-24">
 		<Education />
 	</section>
-
-	<section class="mx-auto max-w-3xl py-12">
-		<p class="my-8 text-center font-bold italic">References available upon request.</p>
-
-		<p class="italic">
-			Note: This resume is a sample representation of my experience and skills as a web developer.
-			It is intended for demonstration purposes and may not reflect my complete work history or
-			qualifications. For the most up-to-date information, please contact me directly.
-		</p>
-	</section>
 </main>

@@ -3,7 +3,9 @@ export const projectList: ProjectMetaData[] = [
 		slug: 'linkinbio',
 		name: 'Link In Bio',
 		description:
-			'The simplest way to collect, manage, and act on suggestions from your team or customers. No more messy spreadsheets or lost emails.',
+			'Simple and fast Link in Bio page for sharing your important links with the world.',
+		summary:
+			'A fast, mobile-first landing page for sharing your important links with the world. I enjoyed designing and building this project as a practice exercise to improve my Svelte and Tailwind skills.',
 		projectDetails: [
 			{ title: 'Year', description: '2024' },
 			{ title: 'Role', description: 'Web Designer / Frontend Developer' },
@@ -30,6 +32,8 @@ export const projectList: ProjectMetaData[] = [
 		name: 'SuggestBox',
 		description:
 			'The simplest way to collect, manage, and act on suggestions from your team or customers. No more messy spreadsheets or lost emails.',
+		summary:
+			'A lightweight, anonymous feedback collection tool featuring frictionless link-sharing that requires no user sign-ups. Built with community upvoting and automated sorting to help teams naturally prioritize ideas and eliminate scattered communication.',
 		projectDetails: [
 			{ title: 'Year', description: '2026' },
 			{ title: 'Role', description: 'Web Developer' },
@@ -56,6 +60,8 @@ export const projectList: ProjectMetaData[] = [
 		name: 'MarkIt',
 		description:
 			'The playful bookmark manager for organized minds. Save links, images, and snippets in one beautiful place.',
+		summary:
+			'Built a full-stack bookmarking platform with Google OAuth authentication, designed a responsive dashboard and bookmark collections, added favorites, and filtering.',
 		projectDetails: [
 			{ title: 'Year', description: '2026' },
 			{ title: 'Role', description: 'Frontend Developer' },

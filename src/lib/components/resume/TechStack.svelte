@@ -1,10 +1,18 @@
 <script lang="ts">
 	const techStack = [
-		['Frameworks', 'Sveltekit', 'React'],
 		['Languages', 'JavaScript', 'TypeScript', 'Go', 'SQL'],
-		['Backend', 'Postgres', 'Node.js', 'Supabase'],
-		['Design', 'Figma', 'SEO', 'UI/UX'],
-		['Tools', 'Git', 'Docker', 'Vercel']
+		['Frameworks', 'Sveltekit', 'React', 'TailwindCSS'],
+		['Backend', 'Postgres', 'Node.js', 'Supabase', 'Convex'],
+		['Tools', 'Git', 'Docker', 'Vercel', 'Figma', 'SEO', 'UI/UX'],
+		[
+			'Additional Skills',
+			'Responsive Design',
+			'RESTful APIs',
+			'OAuth Authentication',
+			'Performance Optimization',
+			'Git Workflow',
+			'Cross-Browser Compatibility'
+		]
 	];
 </script>
 
