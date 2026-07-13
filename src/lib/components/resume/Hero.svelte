@@ -30,23 +30,10 @@
 		<div class="col-span-12 md:col-span-6">
 			<p class="text-lg leading-relaxed text-text-secondary normal-case">
 				Frontend Developer with experience building responsive web applications using SvelteKit,
-				TypeScript, Tailwind CSS, and Supabase. Passionate about creating fast, user-friendly
+				TypeScript, Tailwind CSS, and Supabase/Convex. Passionate about creating fast, user-friendly
 				interfaces and integrating modern APIs and authentication systems. Seeking a junior frontend
 				role where I can contribute to real products and continue growing as an engineer.
 			</p>
 		</div>
 	</div>
-
-	<!-- {#each details as detail (detail.title)}
-		<div class="col-span-2 text-start">
-			<a
-				href={detail.url}
-				target="_blank"
-				rel="noopener noreferrer"
-				class="text-lg font-bold tracking-widest text-primary uppercase"
-			>
-				{detail.title}
-			</a>
-		</div>
-	{/each} -->
 </section>

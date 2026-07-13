@@ -23,9 +23,9 @@
 
 	<div class="col-span-12 lg:col-span-9">
 		<div class="grid grid-cols-2 gap-1.5 gap-y-8 md:grid-cols-3 lg:grid-cols-5">
-			{#each techStack as stack}
+			{#each techStack as stack (stack)}
 				<div class="flex flex-col">
-					{#each stack as list}
+					{#each stack as list (list)}
 						<div
 							class="flex flex-col text-xl font-bold first:mb-2 first:text-xs first:tracking-widest first:text-primary"
 						>

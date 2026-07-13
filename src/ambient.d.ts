@@ -15,7 +15,7 @@ declare global {
 		slug: string;
 		name: string;
 		description: string;
-		summary: string;
+		summary: string[];
 		projectDetails: Detail[];
 		imageMetaData: {
 			src: string;

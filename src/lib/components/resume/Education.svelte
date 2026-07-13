@@ -24,7 +24,7 @@
 
 	<div class="col-span-12 space-y-16 lg:col-span-9">
 		<div class="grid grid-cols-12 gap-1.5 space-y-16">
-			{#each educationInfo as education}
+			{#each educationInfo as education (education.degree)}
 				<div class="col-span-12 mb-4 space-y-1.5 md:col-span-4 md:mb-0">
 					<p class="text-xl font-bold">{education.degree}</p>
 					<p class="text-xs font-bold tracking-widest text-text-secondary-muted uppercase">

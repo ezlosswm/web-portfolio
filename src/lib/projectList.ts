@@ -4,8 +4,11 @@ export const projectList: ProjectMetaData[] = [
 		name: 'Link In Bio',
 		description:
 			'Simple and fast Link in Bio page for sharing your important links with the world.',
-		summary:
-			'A fast, mobile-first landing page for sharing your important links with the world. I enjoyed designing and building this project as a practice exercise to improve my Svelte and Tailwind skills.',
+		summary: [
+			'Built a responsive, mohbile-first landing page for sharing personal and professional links.',
+			'Focused on accessibility, reponsive layouts, fast performance and micro-interactions.',
+			'Optimized the interface for a smealess experience across desktop and mobile devices.'
+		],
 		projectDetails: [
 			{ title: 'Year', description: '2024' },
 			{ title: 'Role', description: 'Web Designer / Frontend Developer' },
@@ -32,8 +35,11 @@ export const projectList: ProjectMetaData[] = [
 		name: 'SuggestBox',
 		description:
 			'The simplest way to collect, manage, and act on suggestions from your team or customers. No more messy spreadsheets or lost emails.',
-		summary:
-			'A lightweight, anonymous feedback collection tool featuring frictionless link-sharing that requires no user sign-ups. Built with community upvoting and automated sorting to help teams naturally prioritize ideas and eliminate scattered communication.',
+		summary: [
+			'Developed an anonymous feedback platform with secure, sign-up-free link sharing.',
+			'Integrated Supabase for data storage and real-time backend functionality.',
+			'Designed a clean, responsive interface focused on simplicity and ease of use.'
+		],
 		projectDetails: [
 			{ title: 'Year', description: '2026' },
 			{ title: 'Role', description: 'Web Developer' },
@@ -60,8 +66,12 @@ export const projectList: ProjectMetaData[] = [
 		name: 'MarkIt',
 		description:
 			'The playful bookmark manager for organized minds. Save links, images, and snippets in one beautiful place.',
-		summary:
-			'Built a full-stack bookmarking platform with Google OAuth authentication, designed a responsive dashboard and bookmark collections, added favorites, and filtering.',
+		summary: [
+			'Built a full-stack bookmarking platform using Sveltekit, Convex and TypeScript.',
+			'Implemented Google OAuth authentication with secure user sessions',
+			'Developed bookmark collections with tag-based filtering and favorites.',
+			'Designed a fully responsive dashboard with TailwindCSS'
+		],
 		projectDetails: [
 			{ title: 'Year', description: '2026' },
 			{ title: 'Role', description: 'Frontend Developer' },

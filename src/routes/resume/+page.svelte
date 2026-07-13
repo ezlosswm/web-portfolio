@@ -40,3 +40,15 @@
 		<Education />
 	</section>
 </main>
+
+<style>
+	@media print {
+		:global(section) {
+			padding-block: 5rem;
+			border: none;
+		}
+		:global(section:last-child) {
+			padding-block: 3rem;
+		}
+	}
+</style>
