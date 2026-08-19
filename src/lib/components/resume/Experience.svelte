@@ -17,7 +17,7 @@
 		{
 			title: 'Custom Service Representative',
 			company: 'Ariston Marketing Ltd. Co.',
-			duration: 'August 2022 - January 2024',
+			duration: 'August 2022 - February 2024',
 			description:
 				'Handled inbound and outbound calls for a dental services client, assisting patients with appointment scheduling, inquiries, and follow-up communications.'
 		}

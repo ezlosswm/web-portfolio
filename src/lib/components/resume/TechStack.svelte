@@ -1,7 +1,7 @@
 <script lang="ts">
 	const techStack = [
 		['Languages', 'JavaScript', 'TypeScript', 'Go', 'SQL'],
-		['Frameworks', 'Sveltekit', 'React', 'TailwindCSS'],
+		['Frameworks', 'Svelte', 'Sveltekit', 'TailwindCSS'],
 		['Backend', 'Postgres', 'Node.js', 'Supabase', 'Convex'],
 		['Tools', 'Git', 'Docker', 'Vercel', 'Figma', 'SEO', 'UI/UX'],
 		[
