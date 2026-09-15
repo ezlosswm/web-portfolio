@@ -14,7 +14,7 @@
 			<li class="col-span-3 text-right">Link</li>
 		</ul>
 
-		{#each projectList as project}
+		{#each projectList as project (project.name)}
 			{@render projectInfo(project)}
 		{/each}
 	</div>

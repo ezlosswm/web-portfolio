@@ -5,9 +5,9 @@ export const projectList: ProjectMetaData[] = [
 		description:
 			'Simple and fast Link in Bio page for sharing your important links with the world.',
 		summary: [
-			'Built a responsive, mohbile-first landing page for sharing personal and professional links.',
-			'Focused on accessibility, reponsive layouts, fast performance and micro-interactions.',
-			'Optimized the interface for a smealess experience across desktop and mobile devices.'
+			'Built a responsive, mobile-first landing page for sharing personal and professional links.',
+			'Focused on accessibility, responsive layouts, fast performance, and subtle micro-interactions.',
+			'Optimized the interface for a seamless experience across desktop and mobile devices.'
 		],
 		projectDetails: [
 			{ title: 'Year', description: '2024' },
@@ -20,9 +20,9 @@ export const projectList: ProjectMetaData[] = [
 		},
 		caseStudy: {
 			challenge:
-				'For this practice project, I wanted to build a simple Link in Bio page similar to tools like Linktree, but without the extra complexity that many of those platforms include. Most existing solutions come with unnecessary features, heavy scripts, or branding that takes away from the simplicity of what should be a lightweight page for sharing links. My goal was to create a minimal, fast-loading page that focuses purely on the core functionality: displaying a profile and a list of important links. I also wanted to use this project as an opportunity to practice building a clean interface while keeping performance and responsiveness in mind.',
+				'For this practice project, I wanted to build a simple Link in Bio page similar to platforms like Linktree, but without the unnecessary complexity that many existing solutions include. Many Link in Bio tools come with excessive features, heavy scripts, or branding that takes away from the simplicity of sharing important links. My goal was to create a lightweight, fast-loading page that focused on the core experience: presenting a profile and a collection of useful links. I also wanted to use the project as an opportunity to practice building a clean, responsive interface while paying close attention to performance and accessibility.',
 			solution:
-				'I built the project using Svelte and Tailwind CSS. I chose Svelte because it compiles components into optimized JavaScript, which helps keep the application lightweight and fast. Tailwind allowed me to quickly design and iterate on the layout while maintaining a consistent visual style. The page includes a simple profile section with an avatar, a short bio, and a list of customizable links that direct users to different platforms or resources. I designed the layout with a mobile-first approach, since most users typically access Link in Bio pages from social media apps on their phones. Since this was a practice project, I kept the scope intentionally small and focused on building something clean and efficient. The project helped me reinforce my understanding of component-based development in Svelte and utility-first styling with Tailwind, while also demonstrating how a simple idea can be turned into a polished and functional interface.'
+				'I built the project using SvelteKit and Tailwind CSS. SvelteKit provided a lightweight framework for building the interface, while Tailwind CSS allowed me to quickly design and iterate on the layout while maintaining consistent styling. The page features a profile section with an avatar, short bio, and customizable links directing visitors to different platforms and resources. I designed the experience with a mobile-first approach, recognizing that most users access Link in Bio pages through social media apps on their phones. By keeping the scope intentionally focused, I was able to concentrate on creating a polished, functional experience while strengthening my understanding of component-based development, responsive design, and utility-first CSS.'
 		},
 		technicalHighlights: {
 			performance: '95',
@@ -34,7 +34,8 @@ export const projectList: ProjectMetaData[] = [
 		slug: 'suggestbox',
 		name: 'SuggestBox',
 		description:
-			'The simplest way to collect, manage, and act on suggestions from your team or customers. No more messy spreadsheets or lost emails.',
+			'A simple platform for collecting, organizing, and acting on suggestions from teams, customers, and communities.',
+
 		summary: [
 			'Developed an anonymous feedback platform with secure, sign-up-free link sharing.',
 			'Integrated Supabase for data storage and real-time backend functionality.',
@@ -53,7 +54,7 @@ export const projectList: ProjectMetaData[] = [
 			challenge:
 				"Collecting feedback from a community, customer base, or club often turns into a disorganized mess of emails, social media comments, and forgotten sticky notes. Without a central hub, the best ideas get lost in the noise, participants feel like their voices aren't being heard, and managers struggle to figure out which issues actually matter. The process is usually either too informal to be useful or too complex for the average person to navigate, leaving everyone frustrated by the lack of transparency.",
 			solution:
-				'SuggestionsBox solves this by providing a clean, accessible space for anyone to post and view on ideas without any technical hurdles. By allowing community members to upvote suggestions, the platform naturally highlights the most important improvements, while clear status labels keep everyone informed on progress. It replaces chaotic communication channels with a single, transparent, and democratic system that helps organizers focus on what their audience truly wants, all while maintaining the simplicity of a digital suggestion box.'
+				'SuggestBox solves this by providing a clean, accessible space for anyone to post and view on ideas without any technical hurdles. By allowing community members to upvote suggestions, the platform naturally highlights the most important improvements, while clear status labels keep everyone informed on progress. It replaces chaotic communication channels with a single, transparent, and democratic system that helps organizers focus on what their audience truly wants, all while maintaining the simplicity of a digital suggestion box.'
 		},
 		technicalHighlights: {
 			performance: '98',
@@ -83,14 +84,47 @@ export const projectList: ProjectMetaData[] = [
 		},
 		caseStudy: {
 			challenge:
-				"Keep track of valuable links, articles, and online resources, create a clutter of open browser tabs, scattered bookmarks, and links hastily pasted into random chats or note apps. Traditional browser bookmarking tools lack intuitive organization and flexibility, which causes important references to get lost and forgotten. When users try to find a specific link days or weeks later, they're forced to dig through chaotic histories, creating a frustrating bottleneck in daily workflows.",
+				'Managing valuable links, articles, and online resources often leads to cluttered browser tabs, scattered bookmarks, and links saved across different chats or note-taking applications. Traditional browser bookmarking tools provide basic storage but often lack the organization and flexibility needed to manage a growing collection of resources. As bookmarks accumulate, finding a specific link becomes increasingly difficult, creating unnecessary friction in research, learning, and daily workflows.',
+
 			solution:
-				"Keep track of valuable links, articles, and online resources, create a clutter of open browser tabs, scattered bookmarks, and links hastily pasted into random chats or note apps. Traditional browser bookmarking tools lack intuitive organization and flexibility, which causes important references to get lost and forgotten. When users try to find a specific link days or weeks later, they're forced to dig through chaotic histories, creating a frustrating bottleneck in daily workflows."
+				'MarkIt provides a centralized and visually organized space for saving and managing bookmarks. Users can securely create accounts, save links, organize them using tags, and mark important resources as favorites for quick access. The dashboard was designed to make browsing and filtering saved content intuitive while maintaining a clean and distraction-free interface. Built with SvelteKit, Convex, and TypeScript, the application demonstrates how a modern full-stack architecture can support authentication, real-time data management, and a responsive user experience.'
 		},
 		technicalHighlights: {
 			performance: '97',
 			efficiency: '74'
 		},
 		url: 'https://mark-it-mu.vercel.app/'
+	},
+	{
+		slug: 'stride',
+		name: 'Stride',
+		description:
+			'The playful bookmark manager for organized minds. Save links, images, and snippets in one beautiful place.',
+		summary: [
+			'Built a sneaker price comparison platform using Sveltekit, Convex and TypeScript.',
+			'Integrated a third party sneaker API to ccompare prices across StockX and GOAT.',
+			'Developed search, filtering, sizing and sorting functionality to help users find relevant sneakers.',
+			'Designed a responsive, minimalist interface focused on making sneaker purchasing decisions easier and faster.'
+		],
+		projectDetails: [
+			{ title: 'Year', description: '2026' },
+			{ title: 'Role', description: 'Frontend Developer' },
+			{ title: 'Tech', description: 'Sveltekit' }
+		],
+		imageMetaData: {
+			src: './assets/stride.webp',
+			alt: 'Stride hero page'
+		},
+		caseStudy: {
+			challenge:
+				'Sneaker shoppers often have to manually checck multiple marketplaces to find the best price for a sneaker they want. Comparing StockX and GOAT involves opening multiple tabs, searching for the same sneaker repeatedly, and accounting for differences in pricing and availability. This fragmented process makes it difficult to quickly determine where a sneaker is available and which marketplace offers the better deal.',
+			solution:
+				'Stride simplifies sneaker shopping by bringing marketplace comparisons into one focused experience. Users can search for sneakers, browse available pairs, filter by size, and compare prices across StockX and GOAT. The platform highlights where each sneaker is available and identifies potential savings, helping users make faster and more informed purchasing decisions without manually checking multiple websites.'
+		},
+		technicalHighlights: {
+			performance: '99',
+			efficiency: '74'
+		},
+		url: 'https://stride-seven-beta.vercel.app/'
 	}
 ];
