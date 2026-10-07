@@ -102,9 +102,9 @@ export const projectList: ProjectMetaData[] = [
 			'Sveltekit menu site for House of Dipp - categories, full menu, hours and WhatsApp contact.',
 		summary: [
 			'Designed and developed a fast, mobile-first interactive menu and ordering web app for House of Dipp.',
-			'Built a clean TypeScript data architecture to easily manage menu categories and item variations while',
-			"integrating smooth carousel flows and micro-interactions that elevate the brand's visual identity, ",
-			'engage customers and steamline the digital ordering experience.'
+			'Built a clean TypeScript data architecture to easily manage menu categories and item variations.',
+			"Integrated smooth carousel flows and micro-interactions that elevate the brand's visual identity.",
+			'Optimized UI responsiveness across all screen sizes to boost customer engagement and steamline online browsing.'
 		],
 		projectDetails: [
 			{ title: 'Year', description: '2026' },
