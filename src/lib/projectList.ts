@@ -96,6 +96,39 @@ export const projectList: ProjectMetaData[] = [
 		url: 'https://mark-it-mu.vercel.app/'
 	},
 	{
+		slug: 'houseofdipp',
+		name: 'House of Dipp',
+		description:
+			'Sveltekit menu site for House of Dipp - categories, full menu, hours and WhatsApp contact.',
+		summary: [
+			'Designed and developed a fast, mobile-first interactive menu and ordering web app for House of Dipp.',
+			'Built a clean TypeScript data architecture to easily manage menu categories and item variations while',
+			"integrating smooth carousel flows and micro-interactions that elevate the brand's visual identity, ",
+			'engage customers and steamline the digital ordering experience.'
+		],
+		projectDetails: [
+			{ title: 'Year', description: '2026' },
+			{ title: 'Role', description: 'Frontend Developer & Designer' },
+			{ title: 'Tech', description: 'Sveltekit' }
+		],
+		imageMetaData: {
+			src: './assets/houseofdipp.webp',
+			alt: 'House of Dipp hero page'
+		},
+		caseStudy: {
+			challenge:
+				'House of Dipp needed a modern, highly responsive digital menu that could handle dynamic categories and custom item options without clunky load times or generic layout templates.',
+
+			solution:
+				'Built a lightweight, mobile-optimized web application using Svelte 5, TypeScript and Tailwind. Formatted an organized data structure for rapid menu updates while crafting interactive UI components and microinteractions to elevate user engagement and simplify online browsing.'
+		},
+		technicalHighlights: {
+			performance: '97',
+			efficiency: '74'
+		},
+		url: 'https://house-of-dipp.vercel.app/'
+	},
+	{
 		slug: 'stride',
 		name: 'Stride',
 		description:
